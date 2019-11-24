@@ -12,10 +12,8 @@ redirect_from:
 Education
 ======
 
-* Columbia University, 2019 (Expected)
-  * M.S. in Data Science
-* The Hong Kong Polytechnic University, 2018
-  * BSc (Hons) with First Class Honors in Investment Science (Applied Mathematics) Minor in Computing, 
+* M.S. in Data Science, Columbia University, 2019 (Expected)
+* BSc. Major in Applied Math Minor in CS with First Class Honors, The Hong Kong Polytechnic University, 2018
   * Thesis: RNN + LDA: New Frontiers in Sociological Research ([slides](http://EvanZhuang.github.io/files/FYP_slides.pdf)), Advisor: [Prof. Xin Guo](https://www.polyu.edu.hk/ama/profile/xguo/)
 
 
