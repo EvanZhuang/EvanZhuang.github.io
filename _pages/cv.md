@@ -12,8 +12,10 @@ redirect_from:
 Education
 ======
 
-* M.S. in Data Science, Columbia University, 2019 (Expected)
-* BSc (Hons) with First Class Honors in Investment Science (Applied Mathematics) with minor in Computing, The Hong Kong Polytechnic University, 2018
+* Columbia University, 2019 (Expected)
+  * M.S. in Data Science
+* The Hong Kong Polytechnic University, 2018
+  * BSc (Hons) with First Class Honors in Investment Science (Applied Mathematics) Minor in Computing, 
   * Thesis: RNN + LDA: New Frontiers in Sociological Research ([slides](http://EvanZhuang.github.io/files/FYP_slides.pdf)), Advisor: [Prof. Xin Guo](https://www.polyu.edu.hk/ama/profile/xguo/)
 
 
@@ -53,6 +55,6 @@ Selected Accomplishments and Awards
 * Final List, The BigDatathon, 2018 
 * Department of Applied Mathematics Scholarship for Hall Residents, 2017/18
 * The Hong Kong Polytechnic University (Eastern Canada) Association Scholarship, 2017/18
-* The Hong Kong Polytechnic University Scholarship (20 Students per year), 2016/17
+* The Hong Kong Polytechnic University Scholarship, 2016/17
 * HKSAR Government Scholarship - Reaching Out Award, 2015/16
 * Dean's List, 2014/15, 2016/17, 2017/18
