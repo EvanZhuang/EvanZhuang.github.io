@@ -11,49 +11,48 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
-Work experience
+* M.S. in Data Science, Columbia University, 2019 (Expected)
+* BSc (Hons) with First Class Honors in Investment Science (Applied Mathematics) with minor in Computing, The Hong Kong Polytechnic University, 2018
+  * Thesis: RNN + LDA: New Frontiers in Sociological Research ([slides](http://EvanZhuang.github.io/files/FYP_slides.pdf)), Advisor: [Prof. Xin Guo](https://www.polyu.edu.hk/ama/profile/xguo/)
+
+
+
+Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Graduate Research Intern, May 2019 - August 2019, IBM T. J. Watson Research Center
+  * Designed and implemented framework for large scale data analysis on HPC
+  * Developed deep learning pipeline for vulnerability detection and localization
+  * One third-author paper has been submitted to a software engineering conference
+  * Supervisor: [Dr. Alessandro Morari](https://researcher.watson.ibm.com/researcher/view.php?person=us-amorari) and [Jim Laredo](https://researcher.watson.ibm.com/researcher/view.php?person=us-laredoj)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Graduate Research Assistant, Jan 2019 - Present, Columbia University
+  * Worked on problems in software engineering that utilize natural language processing and deep learning
+  * Utilized deep learning models to discover biases in current public datasets
+  * Developed models for automated vulnerability detection
+  * One first-author long paper has been submitted to a top CS security/privacy conference
+  * Supervisor: [Prof. Baishakhi Ray](http://rayb.info/) and [Prof. Suman Jana](https://www.cs.columbia.edu/~suman/)
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Undergraduate Research Assistant, Feb 2017 - Apr 2017 & Mar 2018 - Jul 2018, The Hong Kong Polytechnic University
+  * Built medical MRI demo using the sparse optimization algorithm in Matlab ([code](https://github.com/EvanZhuang/MRI-Reconstruction-with-Sparse-Optimization))
+  * Proposed ways to determine the optimal hyper-parameters in topic models
+  * Conducted analysis of probabilistic as well as SVD-based topic modelling methods
+  * Supervisor: [Prof. Xin Guo](https://www.polyu.edu.hk/ama/profile/xguo/) and [Prof. Ting Kei Pong](https://www.polyu.edu.hk/ama/profile/pong/)
+  
+
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+
+Selected Accomplishments and Awards
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Final List, The BigDatathon, 2018 
+* Department of Applied Mathematics Scholarship for Hall Residents, 2017/18
+* The Hong Kong Polytechnic University (Eastern Canada) Association Scholarship, 2017/18
+* The Hong Kong Polytechnic University Scholarship (20 Students per year), 2016/17
+* HKSAR Government Scholarship - Reaching Out Award, 2015/16
+* Dean's List, 2014/15, 2016/17, 2017/18
