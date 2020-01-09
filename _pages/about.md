@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hey, I am Yufan! I am a Research Engineer of [IBM T. J. Watson Research Center](http://www.research.ibm.com/labs/watson/). I primarily work in natural language processing and probabilistic programming, sometimes wanders into other areas include computational sociology and psychology.
+Hey, I am Yufan! I am a Research Engineer at [IBM T. J. Watson Research Center](http://www.research.ibm.com/labs/watson/). I primarily work in natural language processing and probabilistic programming, sometimes wanders into other areas include computational sociology and psychology.
 
 My current primary research goal is to develop a robust, explanable, generalizable deep learning framework for sequential classification/generation with NLP/RL models. I also have done work in data bias exploration and probabilistic topic modeling with applications in sociology.
 
