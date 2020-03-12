@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 
-* M.S. in Data Science, Columbia University, 2019
+* M.S. in Data Science, Columbia University, 2020
 * BSc. Major in Applied Math Minor in CS with First Class Honors, The Hong Kong Polytechnic University, 2018
   * Thesis: RNN + LDA: New Frontiers in Sociological Research ([slides](http://EvanZhuang.github.io/files/FYP_slides.pdf)), Advisor: [Prof. Xin Guo](https://www.polyu.edu.hk/ama/profile/xguo/)
 
@@ -20,13 +20,18 @@ Education
 
 Experience
 ======
+* Research Software Engineer, Jan 2020 - Present, IBM T. J. Watson Research Center
+  * Designing new GNN architechture for program understanding and vulnerability detection
+  * Applying and improving NLP methods on code
+  * Working with code to graph on C language
+  
 * Graduate Research Intern, May 2019 - August 2019, IBM T. J. Watson Research Center
   * Designed and implemented framework for large scale data analysis on HPC
   * Developed deep learning pipeline for vulnerability detection and localization
   * One third-author paper has been submitted to a software engineering conference
   * Supervisor: [Dr. Alessandro Morari](https://researcher.watson.ibm.com/researcher/view.php?person=us-amorari) and [Jim Laredo](https://researcher.watson.ibm.com/researcher/view.php?person=us-laredoj)
 
-* Graduate Research Assistant, Jan 2019 - Present, Columbia University
+* Graduate Research Assistant, Jan 2019 - Dec 2019, Columbia University
   * Worked on problems in software engineering that utilize natural language processing and deep learning
   * Utilized deep learning models to discover biases in current public datasets
   * Developed models for automated vulnerability detection
