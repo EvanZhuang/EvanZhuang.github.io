@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Yufan Zhuang"
   avatar           : "profile.jpg"
-  bio              : "MS Data Science at Columbia, Machine Learning Enthusiast, NLP Researcher"
+  bio              : "Research Engineer at IBM Research, MS Data Science at Columbia, Machine Learning Enthusiast"
   location         : "New York, NY"
-  employer         :
-  pubmed           : 
-  googlescholar    : 
+  employer         : "IBM Research"
+  pubmed           :
+  googlescholar    :
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "yufan-zhuang"
-  orcid            : 
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
