@@ -4,8 +4,14 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: Yufan_Zhuang_CV_web.pdf
+description: last updated Oct 20, 2022
 toc:
   sidebar: left
 ---
+
+<div class="publications">
+
+<iframe src="https://docs.google.com/gview?url=https://evanzhuang.github.io/assets/pdf/Yufan_Zhuang_CV_web.pdf&embedded=true" style="width:800px; height:1024px;" frameborder="0"></iframe>
+
+</div>
