@@ -1,13 +1,9 @@
 ---
-layout: cv
-permalink: /cv/
-title: cv
+layout: page
+permalink: /resume/
+title: resume
+description: last updated Jan 2024
 nav: true
-nav_order: 5
-cv_pdf: Yufan_Zhuang_CV_web.pdf
-description: last updated Oct 20, 2022
-toc:
-  sidebar: left
 ---
 
 <div class="publications">

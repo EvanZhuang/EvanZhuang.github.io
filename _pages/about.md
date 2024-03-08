@@ -2,13 +2,14 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">CSE@UCSD</a>.
+subtitle: <a href='#'>CSE@UC San Diego</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>CSE 2232 or Anywhere on earth :)</p>
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Anywhere on campus :)</p>
     <p>9500 Gilman Drive</p>
     <p>La Jolla, California</p>
 
