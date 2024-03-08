@@ -2,8 +2,9 @@
 layout: page
 permalink: /resume/
 title: resume
-description: last updated Jan 2024
+description: last updated Jan 2024, refresh if the pdf is not loaded
 nav: true
+nav_order: 3
 ---
 
 <div class="publications">
