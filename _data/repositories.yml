@@ -3,5 +3,7 @@ github_users:
 
 github_repos:
   - EvanZhuang/MetaTree
+  - EvanZhuang/vector-icl
   - tensorflow/models
+  - EvanZhuang/viper
   - EvanZhuang/wavspa
