@@ -5,6 +5,6 @@ github_repos:
   - EvanZhuang/MetaTree
   - EvanZhuang/vector-icl
   - tensorflow/models
-  - EvanZhuang/viper
   - shangdatalab/Deep-Contam
   - EvanZhuang/wavspa
+  - EvanZhuang/quantitative_text_analysis
