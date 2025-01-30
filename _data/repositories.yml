@@ -3,5 +3,8 @@ github_users:
 
 github_repos:
   - EvanZhuang/MetaTree
+  - EvanZhuang/vector-icl
   - tensorflow/models
+  - shangdatalab/Deep-Contam
   - EvanZhuang/wavspa
+  - EvanZhuang/quantitative_text_analysis
