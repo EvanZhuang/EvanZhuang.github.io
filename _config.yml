@@ -253,10 +253,12 @@ enable_video_embedding: false
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
-# For each dependency, specify version, optional SRI, and CDN link
 
+# Add the url, version and integrity hash of the libraries you use in your site.
+# The integrity hash is used to ensure that the library is not tampered with.
+# Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
 third_party_libraries:
-  download: false
+  download: false # if true, download the versions of the libraries specified below and use the downloaded files
   bootstrap-table:
     integrity:
       css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
@@ -312,7 +314,7 @@ third_party_libraries:
     integrity:
       js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
     url:
-      js: "https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js"
+      js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
     version: "5.0.0"
   img-comparison-slider:
     integrity:
@@ -472,12 +474,12 @@ third_party_libraries:
     version: "2.1.8"
 
 # -----------------------------------------------------------------------------
-# Fetch external JSON data
+# Get external JSON data
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json
+    json: assets/json/resume.json # it can also be an url
 
 jsonresume:
   - basics
