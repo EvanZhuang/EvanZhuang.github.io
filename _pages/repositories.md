@@ -7,8 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-## GitHub users
-
 {% if site.data.repositories.github_users %}
 
 ## GitHub users
