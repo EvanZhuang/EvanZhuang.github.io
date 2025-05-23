@@ -2,9 +2,9 @@ github_users:
   - EvanZhuang
 
 github_repos:
+  - EvanZhuang/mixinputs
   - EvanZhuang/MetaTree
   - EvanZhuang/vector-icl
   - tensorflow/models
   - shangdatalab/Deep-Contam
   - EvanZhuang/wavspa
-  - EvanZhuang/quantitative_text_analysis
