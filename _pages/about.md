@@ -24,14 +24,14 @@ announcements:
 ---
 **Hey, I'm Yufan Zhuang (庄宇凡)!**
 
-I'm a PhD student at UC San Diego advised by [Jingbo Shang](https://shangjingbo1226.github.io/) working on making language models smarter and more versatile. I develop methods that push the boundaries of how AI systems understand and generate language—from helping them reason through complex, long-form content to enabling them to learn from any data modality.
+I'm a PhD student at UC San Diego advised by [Jingbo Shang](https://shangjingbo1226.github.io/) working on making language models smarter and more versatile. I develop methods that push the boundaries of how AI systems understand and generate language—from helping them reason through complex problems, long-form content to enabling them to learn from any data modality.
 
-## Research Interests
+### Research Interests
 
 My work focuses on advancing natural language processing and large language models through:
 
 **🔄 Beyond Traditional Sampling**  
-Exploring continuous mixture approaches for more nuanced LLM inference ([Mixture of Inputs](https://arxiv.org/abs/2505.14827))
+Exploring continuous mixture approaches for better LLM reasoning ([Mixture of Inputs, arXiv 2025](https://arxiv.org/abs/2505.14827))
 
 **📚 Agentic Long Context**  
 Improving long-context capabilities through agentic learning ([AgenticLU, ACL'25](https://arxiv.org/abs/2502.15920))
