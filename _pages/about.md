@@ -27,7 +27,7 @@ announcements:
 I'm a PhD student at UC San Diego advised by [Jingbo Shang](https://shangjingbo1226.github.io/) working on making language models smarter and more versatile. I develop methods that push the boundaries of how AI systems understand and generate language—from helping them reason through complex problems, long-form content to enabling them to learn from any data modality in continuous space.
 
 
-### 🔍 **Next-Generation Reasoning in Continuous Vector Space**
+### 🔍 **Reasoning in Continuous Space**
 **Mixture of Inputs** ([arXiv'25](https://arxiv.org/abs/2505.14827)) - *Beyond Discrete Sampling*  
 Exploring continuous mixture approaches that fundamentally improve how language models reason through complex problems by operating in continuous vector space rather than discrete tokens.
 
