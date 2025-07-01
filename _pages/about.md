@@ -22,10 +22,11 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 ---
-**Hey, I'm Yufan Zhuang (庄宇凡)!**
+**Hey, I'm Yufan Zhuang 庄宇凡**
 
-I'm a PhD student at UC San Diego advised by [Jingbo Shang](https://shangjingbo1226.github.io/) working on making language models smarter and more versatile. I develop methods that push the boundaries of how AI systems understand and generate language—from helping them reason through complex problems, long-form content to enabling them to learn from any data modality in continuous space.
+I'm a final year CS PhD student at UC San Diego advised by [Jingbo Shang](https://shangjingbo1226.github.io/) working on **making language models reason better and more agentic**. I develop methods that push the boundaries of how AI systems understand and generate language—from helping them reason through complex problems, long-form content to enabling them to learn from any data modality in continuous space.
 
+👋 I’m on the market for full-time AI research positions starting Dec 2025.
 
 ### 🔍 **Reasoning in Continuous Space**
 **Mixture of Inputs** ([arXiv'25](https://arxiv.org/abs/2505.14827)) - *Beyond Discrete Sampling*  
