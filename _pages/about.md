@@ -25,29 +25,22 @@ announcements:
 
 I'm a final year CS PhD student at UC San Diego advised by [Jingbo Shang](https://shangjingbo1226.github.io/) working on **making language models reason better and more agentic**. I develop methods that push the boundaries of how AI systems understand and generate language—from helping them reason through complex problems, long-form content to enabling them to learn from any data modality in continuous space.
 
-👋 I’m on the market for full-time AI research positions starting Dec 2025.
+👋 I'm on the job market for full-time AI research positions starting Dec 2025.
 
-### 🔍 **Reasoning in Continuous Space**
-**Mixture of Inputs** ([arXiv'25](https://arxiv.org/abs/2505.14827)) - *Beyond Discrete Sampling*  
+### 🔍 **LLM Reasoning and Agentic Learning**
+**Mixture of Inputs** ([NeurIPS'25](https://arxiv.org/abs/2505.14827)) - *Beyond Discrete Sampling*  
 Exploring continuous mixture approaches that fundamentally improve how language models reason through complex problems by operating in continuous vector space rather than discrete tokens.
 
 **Vector-ICL** ([ICLR'25](https://arxiv.org/abs/2410.05629)) - *Cross-Modal In-Context Learning*  
 Enabling models to learn from any data modality in-context through continuous vector representations, breaking down traditional barriers between text, images, and other data types.
 
-**MetaTree** ([TMLR'24](https://arxiv.org/abs/2402.03774)) - *Tabular Data Processing with Transformers*  
-Training transformers via meta-learning to directly produce strong decision trees, bridging classical ML algorithms with modern neural approaches for superior generalization.
-
-### 🤖 **Agentic Learning & Long-Context**
 **AgenticLU** ([ACL'25](https://arxiv.org/abs/2502.15920)) - *Agentic Long Context Learning*  
 Improving long-context capabilities through intelligent agentic approaches that can dynamically reason through complex, extended content with strategic planning.
 
-**ViperVLMs** ([HuggingFace](https://huggingface.co/ViperVLM)) - *High-Quality Mamba-based Vision Language Models*  
-Training efficient vision-language models that maintain high performance while being more computationally accessible.
+**MetaTree** ([TMLR'24](https://arxiv.org/abs/2402.03774)) - *Tabular Data Processing with Transformers*  
+Training transformers via meta-learning to directly produce strong decision trees, bridging classical ML algorithms with modern neural approaches for superior generalization.
 
-**WavSpa** ([NeurIPS'23 UniReps](https://arxiv.org/abs/2210.01989)) - *Adaptive Long Context*  
-Extending LLM context length through innovative wavelet transform approaches, making long-context processing more efficient.
-
-### 📊 **Trustworthy Model Evaluation**
+### 📊 **Post-training Model Evaluation**
 **Deep Contamination** ([EMNLP'24](https://arxiv.org/abs/2406.13236)) - *Cross-lingual Data Contamination Study*  
 Uncovering critical issues in how we evaluate contemporary LLMs, particularly around cross-lingual contamination that affects model reliability.
 
