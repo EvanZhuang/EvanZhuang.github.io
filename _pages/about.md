@@ -40,7 +40,6 @@ Improving long-context capabilities through intelligent agentic approaches that 
 **MetaTree** ([TMLR'24](https://arxiv.org/abs/2402.03774)) - *Tabular Data Processing with Transformers*  
 Training transformers via meta-learning to directly produce strong decision trees, bridging classical ML algorithms with modern neural approaches for superior generalization.
 
-### 📊 **Post-training Model Evaluation**
 **Deep Contamination** ([EMNLP'24](https://arxiv.org/abs/2406.13236)) - *Cross-lingual Data Contamination Study*  
 Uncovering critical issues in how we evaluate contemporary LLMs, particularly around cross-lingual contamination that affects model reliability.
 
