@@ -28,7 +28,7 @@ I'm a final year CS PhD student at UC San Diego advised by [Jingbo Shang](https:
 👋 I'm on the job market for full-time AI research positions starting early 2026.
 
 ### 🔍 **LLM Reasoning and Agentic Learning**
-**Knowledge Flow** ([Blog](https://yufanzhuang.notion.site/knowledge-flow)) - *Scaling Reasoning beyond Context Limit*
+**Knowledge Flow** ([Blog](https://yufanzhuang.notion.site/knowledge-flow)) - *Scaling Reasoning beyond Context Limit*  
 Knowledge Flow scales reasoning beyond context limits, enabling open-source models to reach 100% on AIME-25 without training or tools or external feedbacks.
 
 **Mixture of Inputs** ([NeurIPS'25](https://arxiv.org/abs/2505.14827)) - *Beyond Discrete Sampling*  
