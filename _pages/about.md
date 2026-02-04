@@ -28,6 +28,10 @@ I'm a final year CS PhD student at UC San Diego advised by [Jingbo Shang](https:
 👋 I'm on the job market for full-time AI research positions starting early 2026.
 
 ### 🔍 **LLM Reasoning and Agentic Learning**
+
+**Test-time Recursive Thinking** ([arXiv'26](https://arxiv.org/abs/2602.03094)) - *Self-Improvement without External Feedback*
+Test-time Recursive Thinking imporves models reasoning without any external feedbacks. +10.4-14.8 pp on the most difficult problems of LiveCodeBench (accuracy), with pure test-time scaling.
+
 **Knowledge Flow** ([Blog](https://yufanzhuang.notion.site/knowledge-flow)) - *Scaling Reasoning beyond Context Limit*  
 Knowledge Flow scales reasoning beyond context limits, enabling open-source models to reach 100% on AIME-25 without training or tools or external feedbacks.
 
