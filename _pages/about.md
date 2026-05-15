@@ -23,9 +23,7 @@ announcements:
 ---
 **Hey, I'm Yufan Zhuang 庄宇凡**
 
-I'm a final year CS PhD student at UC San Diego advised by [Jingbo Shang](https://shangjingbo1226.github.io/) working on **making language models reason better and more agentic**. I develop methods that push the boundaries of how AI systems understand and generate language—from helping them reason through complex problems, long-form content to enabling them to learn from any data modality in continuous space.
-
-👋 I'm on the job market for full-time AI research positions starting early 2026.
+I am a Research Scientist at Google Cloud AI Research, where I work on **making language models reason better and act more agentically**. My research pushes the boundaries of how AI systems understand, reason, and generate language, with a focus on complex problem solving, long-context understanding, and learning from diverse data modalities in continuous spaces. I received my PhD from UC San Diego, advised by [Jingbo Shang](https://shangjingbo1226.github.io/).
 
 ### 🔍 **LLM Reasoning and Agentic Learning**
 
