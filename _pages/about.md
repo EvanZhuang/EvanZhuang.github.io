@@ -26,8 +26,17 @@ I am a Research Scientist at [Google Cloud AI Research](https://research.google/
 
 ### 🔍 **LLM Reasoning and Agentic Learning**
 
+**RRSI** ([arXiv'26](https://arxiv.org/abs/2609.24972)) - *Regularized Recursive Self-Improvement of Agent Harnesses*  
+Regularizing how agent harnesses evolve to improve generalization beyond the tasks used during self-improvement, while reducing token costs.
+
+**Register Tokens** ([arXiv'26](https://arxiv.org/abs/2609.16372)) - *Bounded-State Reasoning in Diffusion Language Models*  
+Carrying reasoning progress across generation chunks in a fixed-size set of continuous register states, improving math and code reasoning without retaining all earlier generated text.
+
+**EnvHarness** ([arXiv'26](https://arxiv.org/abs/2608.19880)) - *Awakening Static Worlds for Agent Learning*  
+Adapting existing environments to agents' weaknesses through programmable components that preserve the original verifier, supporting targeted agent learning and reinforcement learning.
+
 **Test-time Recursive Thinking** ([arXiv'26](https://arxiv.org/abs/2602.03094)) - *Self-Improvement without External Feedback*
-Test-time Recursive Thinking imporves models reasoning without any external feedbacks. +10.4-14.8 pp on the most difficult problems of LiveCodeBench (accuracy), with pure test-time scaling.
+Test-time Recursive Thinking improves model reasoning without external feedback. +10.4-14.8 pp on the most difficult problems of LiveCodeBench (accuracy), with pure test-time scaling.
 
 **Knowledge Flow** ([Blog](https://yufanzhuang.notion.site/knowledge-flow)) - *Scaling Reasoning beyond Context Limit*  
 Knowledge Flow scales reasoning beyond context limits, enabling open-source models to reach 100% on AIME-25 without training or tools or external feedbacks.
