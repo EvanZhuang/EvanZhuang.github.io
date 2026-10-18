@@ -24,6 +24,8 @@ announcements:
 
 I am a Research Scientist at [Google Cloud AI Research](https://research.google/teams/cloud-ai-research/) working on **making language models reason better and act more agentically**. I received my PhD from UC San Diego, advised by [Jingbo Shang](https://shangjingbo1226.github.io/).
 
+📢 **I'm looking for motivated interns!** If you're interested in working on LLM reasoning and agents, feel free to [email me](mailto:{{ 'y5zhuang@ucsd.edu' | encode_email }}).
+
 ### 🔍 **LLM Reasoning and Agentic Learning**
 
 **RRSI** ([arXiv'26](https://arxiv.org/abs/2609.24972)) - *Regularized Recursive Self-Improvement of Agent Harnesses*  
