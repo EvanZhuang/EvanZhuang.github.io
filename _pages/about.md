@@ -26,6 +26,19 @@ I am a Research Scientist at [Google Cloud AI Research](https://research.google/
 
 📢 **I'm looking for motivated interns!** If you're interested in working on LLM reasoning and agents, feel free to [email me](mailto:{{ 'y5zhuang@ucsd.edu' | encode_email }}).
 
+<section class="p-3 mb-4 rounded" aria-labelledby="ple-highlight" style="border: 2px solid var(--global-theme-color); background: var(--global-card-bg-color);">
+  <p class="mb-1"><strong>Featured work · October 2026</strong></p>
+  <h2 id="ple-highlight" class="mt-0">PLE: Physical-Engineering's Last Exam</h2>
+  <p>Can AI agents deliver real engineering work? PLE tests agents on 85 long-horizon tasks across electrical, civil, structural, and mechanical engineering, from navigating project documents to producing complete engineering deliverables.</p>
+  <p class="mb-0"><a href="https://ple-bench.com/">Project &amp; leaderboard</a> · <a href="https://arxiv.org/abs/2610.30537">Paper</a> · <a href="https://github.com/google-research/ple">Code</a></p>
+</section>
+
+### 🛠️ **Agents for Real-World Engineering**
+
+**T2J-Bench** ([arXiv'26](https://arxiv.org/abs/2605.29054) · [Project](https://ft2023.github.io/T2j-web/) · [Code](https://github.com/google-research/t2j-bench)) - *Execution-Grounded PyTorch-to-JAX Repository Migration*
+
+Evaluating coding agents on 63 whole-repository migrations across training and inference, with a torch-free verifier that measures functional equivalence rather than surface-level code similarity.
+
 ### 🔍 **LLM Reasoning and Agentic Learning**
 
 **RRSI** ([arXiv'26](https://arxiv.org/abs/2609.24972)) - *Regularized Recursive Self-Improvement of Agent Harnesses*  
