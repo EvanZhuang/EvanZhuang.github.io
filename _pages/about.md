@@ -34,16 +34,16 @@ Evaluating agents on 85 long-horizon professional engineering tasks spanning ele
 **T2J-Bench** ([arXiv'26](https://arxiv.org/abs/2605.29054) / [Website](https://ft2023.github.io/T2j-web/) / [GitHub](https://github.com/google-research/t2j-bench) / [HF Artifacts](https://huggingface.co/buckets/jiefengcgg/t2j-bench)) - *Execution-Grounded PyTorch-to-JAX Repository Migration*  
 Benchmarking coding agents on whole-repository PyTorch-to-JAX migration, checking functional equivalence through execution in a torch-free verifier across training and serving tasks.
 
-**RRSI** ([arXiv'26](https://arxiv.org/abs/2609.24972)) - *Regularized Recursive Self-Improvement of Agent Harnesses*  
+**RRSI** ([arXiv'26](https://arxiv.org/abs/2609.24972) / [Website](https://regularized-rsi.com/) / [GitHub](https://github.com/google-research/rrsi)) - *Regularized Recursive Self-Improvement of Agent Harnesses*  
 Regularizing how agent harnesses evolve to improve generalization beyond the tasks used during self-improvement, while reducing token costs.
 
-**Register Tokens** ([arXiv'26](https://arxiv.org/abs/2609.16372)) - *Bounded-State Reasoning in Diffusion Language Models*  
+**Register Tokens** ([arXiv'26](https://arxiv.org/abs/2609.16372) / [GitHub](https://github.com/SprocketLab/dllm-registers) / [HF Collection](https://huggingface.co/collections/albertge/dllm-registers)) - *Bounded-State Reasoning in Diffusion Language Models*  
 Carrying reasoning progress across generation chunks in a fixed-size set of continuous register states, improving math and code reasoning without retaining all earlier generated text.
 
-**EnvHarness** ([arXiv'26](https://arxiv.org/abs/2608.19880)) - *Awakening Static Worlds for Agent Learning*  
+**EnvHarness** ([arXiv'26](https://arxiv.org/abs/2608.19880) / [Website](https://envharness.com/) / [GitHub](https://github.com/google-research/envharness)) - *Awakening Static Worlds for Agent Learning*  
 Adapting existing environments to agents' weaknesses through programmable components that preserve the original verifier, supporting targeted agent learning and reinforcement learning.
 
-**Test-time Recursive Thinking** ([arXiv'26](https://arxiv.org/abs/2602.03094)) - *Self-Improvement without External Feedback*
+**Test-time Recursive Thinking** ([arXiv'26](https://arxiv.org/abs/2602.03094) / [GitHub](https://github.com/EvanZhuang/test_time_recursive_thinking)) - *Self-Improvement without External Feedback*
 Test-time Recursive Thinking improves model reasoning without external feedback. +10.4-14.8 pp on the most difficult problems of LiveCodeBench (accuracy), with pure test-time scaling.
 
 **Knowledge Flow** ([Blog](https://yufanzhuang.notion.site/knowledge-flow)) - *Scaling Reasoning beyond Context Limit*  
