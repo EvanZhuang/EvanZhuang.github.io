@@ -18,8 +18,8 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
 ---
+
 **Hey, I'm Yufan Zhuang 庄宇凡**
 
 I am a Research Scientist at [Google Cloud AI Research](https://research.google/teams/cloud-ai-research/) working on **making language models reason better and act more agentically**. I received my PhD from UC San Diego, advised by [Jingbo Shang](https://shangjingbo1226.github.io/).
@@ -28,50 +28,51 @@ I am a Research Scientist at [Google Cloud AI Research](https://research.google/
 
 ### 🔍 **LLM Reasoning and Agentic Learning**
 
-**PLE** ([arXiv'26](https://arxiv.org/abs/2610.30537) / [Website](https://ple-bench.com/) / [GitHub](https://github.com/google-research/ple) / [HF Dataset](https://huggingface.co/datasets/physical-engineerings-last-exam/physical-engineerings-last-exam)) - *Physical-Engineering's Last Exam*  
+**PLE** ([arXiv'26](https://arxiv.org/abs/2610.30537) / [Website](https://ple-bench.com/) / [GitHub](https://github.com/google-research/ple) / [HF Dataset](https://huggingface.co/datasets/physical-engineerings-last-exam/physical-engineerings-last-exam)) - _Physical-Engineering's Last Exam_  
 Evaluating agents on 85 long-horizon professional engineering tasks spanning electrical, civil, structural, and mechanical engineering, with realistic engineering deliverables rather than textbook answers.
 
-**T2J-Bench** ([arXiv'26](https://arxiv.org/abs/2605.29054) / [Website](https://ft2023.github.io/T2j-web/) / [GitHub](https://github.com/google-research/t2j-bench) / [HF Artifacts](https://huggingface.co/buckets/jiefengcgg/t2j-bench)) - *Execution-Grounded PyTorch-to-JAX Repository Migration*  
+**T2J-Bench** ([arXiv'26](https://arxiv.org/abs/2605.29054) / [Website](https://ft2023.github.io/T2j-web/) / [GitHub](https://github.com/google-research/t2j-bench) / [HF Artifacts](https://huggingface.co/buckets/jiefengcgg/t2j-bench)) - _Execution-Grounded PyTorch-to-JAX Repository Migration_  
 Benchmarking coding agents on whole-repository PyTorch-to-JAX migration, checking functional equivalence through execution in a torch-free verifier across training and serving tasks.
 
-**RRSI** ([arXiv'26](https://arxiv.org/abs/2609.24972) / [Website](https://regularized-rsi.com/) / [GitHub](https://github.com/google-research/rrsi)) - *Regularized Recursive Self-Improvement of Agent Harnesses*  
+**RRSI** ([arXiv'26](https://arxiv.org/abs/2609.24972) / [Website](https://regularized-rsi.com/) / [GitHub](https://github.com/google-research/rrsi)) - _Regularized Recursive Self-Improvement of Agent Harnesses_  
 Regularizing how agent harnesses evolve to improve generalization beyond the tasks used during self-improvement, while reducing token costs.
 
-**Register Tokens** ([arXiv'26](https://arxiv.org/abs/2609.16372) / [GitHub](https://github.com/SprocketLab/dllm-registers) / [HF Collection](https://huggingface.co/collections/albertge/dllm-registers)) - *Bounded-State Reasoning in Diffusion Language Models*  
+**Register Tokens** ([arXiv'26](https://arxiv.org/abs/2609.16372) / [GitHub](https://github.com/SprocketLab/dllm-registers) / [HF Collection](https://huggingface.co/collections/albertge/dllm-registers)) - _Bounded-State Reasoning in Diffusion Language Models_  
 Carrying reasoning progress across generation chunks in a fixed-size set of continuous register states, improving math and code reasoning without retaining all earlier generated text.
 
-**EnvHarness** ([arXiv'26](https://arxiv.org/abs/2608.19880) / [Website](https://envharness.com/) / [GitHub](https://github.com/google-research/envharness)) - *Awakening Static Worlds for Agent Learning*  
+**EnvHarness** ([arXiv'26](https://arxiv.org/abs/2608.19880) / [Website](https://envharness.com/) / [GitHub](https://github.com/google-research/envharness)) - _Awakening Static Worlds for Agent Learning_  
 Adapting existing environments to agents' weaknesses through programmable components that preserve the original verifier, supporting targeted agent learning and reinforcement learning.
 
-**Test-time Recursive Thinking** ([arXiv'26](https://arxiv.org/abs/2602.03094) / [GitHub](https://github.com/EvanZhuang/test_time_recursive_thinking)) - *Self-Improvement without External Feedback*
+**Test-time Recursive Thinking** ([arXiv'26](https://arxiv.org/abs/2602.03094) / [GitHub](https://github.com/EvanZhuang/test_time_recursive_thinking)) - _Self-Improvement without External Feedback_
 Test-time Recursive Thinking improves model reasoning without external feedback. +10.4-14.8 pp on the most difficult problems of LiveCodeBench (accuracy), with pure test-time scaling.
 
-**Knowledge Flow** ([Blog](https://yufanzhuang.notion.site/knowledge-flow)) - *Scaling Reasoning beyond Context Limit*  
+**Knowledge Flow** ([Blog](https://yufanzhuang.notion.site/knowledge-flow)) - _Scaling Reasoning beyond Context Limit_  
 Knowledge Flow scales reasoning beyond context limits, enabling open-source models to reach 100% on AIME-25 without training or tools or external feedbacks.
 
-**Mixture of Inputs** ([NeurIPS'25](https://arxiv.org/abs/2505.14827)) - *Beyond Discrete Sampling*  
+**Mixture of Inputs** ([NeurIPS'25](https://arxiv.org/abs/2505.14827)) - _Beyond Discrete Sampling_  
 Exploring continuous mixture approaches that fundamentally improve how language models reason through complex problems by operating in continuous vector space rather than discrete tokens.
 
-**Vector-ICL** ([ICLR'25](https://arxiv.org/abs/2410.05629)) - *Cross-Modal In-Context Learning*  
+**Vector-ICL** ([ICLR'25](https://arxiv.org/abs/2410.05629)) - _Cross-Modal In-Context Learning_  
 Enabling models to learn from any data modality in-context through continuous vector representations, breaking down traditional barriers between text, images, and other data types.
 
-**AgenticLU** ([ACL'25](https://arxiv.org/abs/2502.15920)) - *Agentic Long Context Learning*  
+**AgenticLU** ([ACL'25](https://arxiv.org/abs/2502.15920)) - _Agentic Long Context Learning_  
 Improving long-context capabilities through intelligent agentic approaches that can dynamically reason through complex, extended content with strategic planning.
 
-**MetaTree** ([TMLR'24](https://arxiv.org/abs/2402.03774)) - *Tabular Data Processing with Transformers*  
+**MetaTree** ([TMLR'24](https://arxiv.org/abs/2402.03774)) - _Tabular Data Processing with Transformers_  
 Training transformers via meta-learning to directly produce strong decision trees, bridging classical ML algorithms with modern neural approaches for superior generalization.
 
-**Deep Contamination** ([EMNLP'24](https://arxiv.org/abs/2406.13236)) - *Cross-lingual Data Contamination Study*  
+**Deep Contamination** ([EMNLP'24](https://arxiv.org/abs/2406.13236)) - _Cross-lingual Data Contamination Study_  
 Uncovering critical issues in how we evaluate contemporary LLMs, particularly around cross-lingual contamination that affects model reliability.
 
 ### 🔬 **AI for Software Engineering & Sociology**
-**Signal-Aware Code Understanding** ([ACM TOSEM'23](https://dl.acm.org/doi/10.1145/3597202)) - *Trustworthy AI for Source Code*  
+
+**Signal-Aware Code Understanding** ([ACM TOSEM'23](https://dl.acm.org/doi/10.1145/3597202)) - _Trustworthy AI for Source Code_  
 Developing signal-aware AI models for software vulnerability detection that focus on learning task-relevant source code features rather than spurious correlations, improving model robustness and reliability.
 
-**Prediction-Preserving Input Minimization** ([ESEC/FSE'21](https://2021.esec-fse.org/details/fse-2021-papers/14/Probing-Model-Signal-Awareness-via-Prediction-Preserving-Input-Minimization)) - *Probing AI Model Understanding*  
+**Prediction-Preserving Input Minimization** ([ESEC/FSE'21](https://2021.esec-fse.org/details/fse-2021-papers/14/Probing-Model-Signal-Awareness-via-Prediction-Preserving-Input-Minimization)) - _Probing AI Model Understanding_  
 Introducing P2IM approach to systematically evaluate AI models' signal awareness by reducing source code to minimal snippets needed to maintain predictions, revealing models' reliance on incorrect signals.
 
-**Computational Social Science** ([Annals AAG'22](https://www.tandfonline.com/doi/abs/10.1080/24694452.2022.2042180)) - *Machine Learning for Sociological Analysis*  
+**Computational Social Science** ([Annals AAG'22](https://www.tandfonline.com/doi/abs/10.1080/24694452.2022.2042180)) - _Machine Learning for Sociological Analysis_  
 Applying machine learning approaches to decipher heterogeneous representations and images of Chinese communities in North America, bridging computational methods with sociological research.
 
 ---

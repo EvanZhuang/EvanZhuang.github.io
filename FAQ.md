@@ -36,17 +36,13 @@ You need to add `CNAME` file to the `main` or `source` branch of your repository
 
 ### My webpage works locally. But after deploying, it fails to build and throws `Unknown tag 'toc'`. How do I fix that?
 
-Make sure you followed through the [deployment instructions](#deployment) in the previous section. You should have set the deployment branch to `gh-pages`. (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
+Make sure you followed through the [deployment instructions](INSTALL.md#deployment). You should have set the deployment branch to `gh-pages`. (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
 
 ---
 
 ### My webpage works locally. But after deploying, it is not displayed correctly (CSS and JS are not loaded properly). How do I fix that?
 
-If the website does not load the theme, the layout looks weird, and all links are broken, being the main page displayed this way:
-
-<img src="assets/img/template_error.png" width="500">
-
-make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`. Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain. If you are deploying a <ins>personal</ins> or <ins>organization</ins> website, leave `baseurl` **empty** (do **NOT** delete it). If you are deploying a project page, set `baseurl: /<your-project-name>/`. If all previous steps were done correctly, all is missing is for your browser to fetch again the site stylesheet. For this, you can:
+If the website does not load the theme, the layout looks weird, and all links are broken, make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`. Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain. If you are deploying a <ins>personal</ins> or <ins>organization</ins> website, leave `baseurl` **empty** (do **NOT** delete it). If you are deploying a project page, set `baseurl: /<your-project-name>/`. If all previous steps were done correctly, all is missing is for your browser to fetch again the site stylesheet. For this, you can:
 
 - press [Shift + F5 on Chromium-based](https://support.google.com/chrome/answer/157179#zippy=%2Cwebpage-shortcuts) or [Ctrl + F5 on Firefox-based](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly) browsers to reload the page ignoring cached content
 - clean your browser history
@@ -82,9 +78,9 @@ You need to [create a personal access token](https://docs.github.com/en/authenti
 
 We implemented support for [Prettier code formatting](https://prettier.io/) in [#2048](https://github.com/alshedivat/al-folio/pull/2048). It basically ensures that your code is [well formatted](https://prettier.io/docs/en/). If you want to ensure your code is compliant with `Prettier`, you have a few options:
 
-- if you are running locally with `Docker` and using [development containers](https://github.com/alshedivat/al-folio/blob/main/INSTALL.md#local-setup-with-development-containers), `Prettier` is already included
+- if you are running locally with `Docker` and using [development containers](INSTALL.md#local-setup-with-development-containers), `Prettier` is already included
 - if you don't use `Docker`, it is simple to integrate it with your preferred IDE using an [extension](https://prettier.io/docs/en/editors)
-- if you want to run it manually, you can follow the first 2 steps in [this tutorial](https://george-gca.github.io/blog/2023/slidev_for_non_web_devs/) (`Installing node version manager (nvm)` and `Installing Node (latest version)`), then, install it using `npm install prettier` inside the project directory, or install it globally on your computer using `npm install -g prettier`. To run `Prettier` on your current directory use `npx prettier . --write`.
+- if you want to run it manually, install Node.js, then run `npm ci` inside the project directory to install the versions recorded in `package-lock.json`, as CI does. Use `npx prettier . --check` to check formatting or `npx prettier . --write` to fix it.
 
 You can also disable it for your repo. For this, just delete the file [.github/workflows/prettier.yml](https://github.com/alshedivat/al-folio/blob/main/.github/workflows/prettier.yml).
 
@@ -150,9 +146,9 @@ Currently we have the following workflows:
 - `deploy-image.yml`: deploys a new docker image with the latest changes to Docker Hub
 - `deploy.yml`: deploys the website to GitHub Pages
 - `docker-slim.yml`: deploys a smaller version of the docker image to Docker Hub with the [docker-slim-action](https://github.com/kitabisa/docker-slim-action)
-- `lighthouse-badger.yml`: runs a [lighthouse](https://github.com/GoogleChrome/lighthouse) test for your site with the [lighthouse-badger-action](https://github.com/MyActionWay/lighthouse-badger-action), saving the results in the repository for easy inspecting, as can be seen [here](https://github.com/alshedivat/al-folio?tab=readme-ov-file#lighthouse-pagespeed-insights). For more information on how to enable this workflow, check our [FAQ question about it](https://github.com/alshedivat/al-folio/blob/main/FAQ.md#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
+- `lighthouse-badger.yml`: runs a [lighthouse](https://github.com/GoogleChrome/lighthouse) test for your site with the [lighthouse-badger-action](https://github.com/MyActionWay/lighthouse-badger-action), saving the results in the repository for easy inspecting, as can be seen [here](https://github.com/alshedivat/al-folio?tab=readme-ov-file#lighthouse-pagespeed-insights). For more information on how to enable this workflow, check our [FAQ question about it](#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
 - `prettier-comment-on-pr.yml`: not working. For now, this action is disabled. It was supposed to run prettier on the PRs and comment on them with the changes needed. For more information, check [issue 2115](https://github.com/alshedivat/al-folio/issues/2115)
-- `prettier.yml`: runs [prettier](https://prettier.io/) on the code to ensure it is well formatted. For more information, check our [FAQ question about it](https://github.com/alshedivat/al-folio/blob/main/FAQ.md#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
+- `prettier.yml`: runs [prettier](https://prettier.io/) on the code to ensure it is well formatted. For more information, check our [FAQ question about it](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
 
 ---
 
