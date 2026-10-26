@@ -26,7 +26,7 @@ I am a Research Scientist at [Google Cloud AI Research](https://research.google/
 
 📢 **I'm looking for motivated interns!** If you're interested in working on LLM reasoning and agents, feel free to [email me](mailto:{{ 'y5zhuang@ucsd.edu' | encode_email }}).
 
-<section class="p-3 mb-4 rounded" aria-labelledby="ple-highlight" style="border: 2px solid var(--global-theme-color); background: var(--global-card-bg-color);">
+<section class="p-3 mb-4 rounded" aria-labelledby="ple-highlight" style="clear: both; padding: 1.25rem; margin: 1.5rem 0; border: 2px solid var(--global-theme-color); border-radius: 0.375rem; background: var(--global-card-bg-color);">
   <p class="mb-1"><strong>Featured work · October 2026</strong></p>
   <h2 id="ple-highlight" class="mt-0">PLE: Physical-Engineering's Last Exam</h2>
   <p>Can AI agents deliver real engineering work? PLE tests agents on 85 long-horizon tasks across electrical, civil, structural, and mechanical engineering, from navigating project documents to producing complete engineering deliverables.</p>
