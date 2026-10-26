@@ -28,6 +28,12 @@ I am a Research Scientist at [Google Cloud AI Research](https://research.google/
 
 ### 🔍 **LLM Reasoning and Agentic Learning**
 
+**PLE** ([arXiv'26](https://arxiv.org/abs/2610.30537)) - *Physical-Engineering's Last Exam*  
+Evaluating agents on 85 long-horizon professional engineering tasks spanning electrical, civil, structural, and mechanical engineering, with realistic engineering deliverables rather than textbook answers.
+
+**T2J-Bench** ([arXiv'26](https://arxiv.org/abs/2605.29054)) - *Execution-Grounded PyTorch-to-JAX Repository Migration*  
+Benchmarking coding agents on whole-repository PyTorch-to-JAX migration, checking functional equivalence through execution in a torch-free verifier across training and serving tasks.
+
 **RRSI** ([arXiv'26](https://arxiv.org/abs/2609.24972)) - *Regularized Recursive Self-Improvement of Agent Harnesses*  
 Regularizing how agent harnesses evolve to improve generalization beyond the tasks used during self-improvement, while reducing token costs.
 
