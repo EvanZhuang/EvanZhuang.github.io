@@ -1,2 +1,11 @@
 linkedin.com
 reddit.com
+
+# These exact destinations returned HTTP 403 to CI on 2026-10-26, not 404.
+# The ACM and Taylor & Francis DOIs identify existing publications; Columbia's
+# Data Science Institute homepage also remains valid. Keep the published URLs.
+# Recheck manually before changing these exceptions; other URLs on these hosts
+# remain checked. Do not accept all 403 responses or exclude whole domains.
+^https://dl\.acm\.org/doi/10\.1145/3597202$
+^https://www\.tandfonline\.com/doi/abs/10\.1080/24694452\.2022\.2042180$
+^https://datascience\.columbia\.edu/$
